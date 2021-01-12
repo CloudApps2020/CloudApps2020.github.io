@@ -1,0 +1,92 @@
+body
+{
+background-color: #303030;
+color: #ffffff;
+}
+#header 
+{
+	font-family: 'Jura', sans-serif;
+	margin-top: 20px;
+	font-size: 60px;
+	width: fullpx;
+	background-color: #A5BD8A;
+	height: 80px;
+	text-align: center;
+}
+#header img 
+{
+	padding: 0px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+#nazwa
+{
+	float: left;
+	font-size: 60px;
+	width: 1200px;
+	margin-left: 150px;
+	margin-top: 4px;
+	text-align: left;
+}
+#dane
+{
+	float: left;
+	font-size: 50px;
+	margin-top: 13px;
+}
+#container 
+{
+	width: 1400px;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.apk
+{
+	width:180px;
+	float:left;
+	background-color: #E6EDDD;
+	height: 31%;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #303030;
+	transition:.2s all; 
+	
+}
+#container:hover .apk
+{
+	filter:blur(3px);
+	opacity:.5;
+	transform: scale(.98);
+	box-shadow:none;
+}
+#container:hover .apk:hover
+{
+	transform:scale(1);
+	filter:blur(0px);
+	opacity:1;
+	box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+footer
+{
+	font-family: 'Jura', sans-serif;
+	text-align: center;	
+	width: fullpx;
+}
+img
+{
+	padding: 25px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
